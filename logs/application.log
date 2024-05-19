@@ -1,0 +1,23 @@
+16:34:05.181 [restartedMain] INFO  c.p.p.a.PetzeyAppointmentServiceApplication - Starting PetzeyAppointmentServiceApplication using Java 17.0.10 on BT-030182722957 with PID 18040 (C:\Users\615672432\OneDrive - BT Plc\Desktop\Petzey_Appointment_Service\target\classes started by 615672432 in C:\Users\615672432\OneDrive - BT Plc\Desktop\Petzey_Appointment_Service)
+16:34:05.182 [restartedMain] INFO  c.p.p.a.PetzeyAppointmentServiceApplication - No active profile set, falling back to default profiles: default
+16:34:05.476 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:34:05.594 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 117 ms. Found 7 JPA repository interfaces.
+16:34:05.679 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+16:34:05.681 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:34:05.681 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+16:34:05.713 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:34:05.713 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 528 ms
+16:34:05.751 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:34:05.761 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Starting...
+16:34:05.779 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Start completed.
+16:34:05.779 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+16:34:06.142 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:34:06.143 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:34:06.349 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:34:06.425 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:34:06.434 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path ''
+16:34:06.438 [restartedMain] INFO  c.p.p.a.PetzeyAppointmentServiceApplication - Started PetzeyAppointmentServiceApplication in 1.298 seconds (JVM running for 3860.694)
+16:34:06.439 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+16:34:38.086 [Thread-56] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:34:38.087 [Thread-56] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown initiated...
+16:34:38.100 [Thread-56] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown completed.
